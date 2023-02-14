@@ -11,7 +11,8 @@ import SwiftUI
 struct EnvironmentObjectPOCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            View1()
+                .environmentObject(EnvironmentVM())
         }
     }
 }
